@@ -89,13 +89,13 @@ main {
   #try{
       color: white;
   }
-@media screen and (max-width: 580px) {
-
-    main{
-        flex-direction: column;
+@media (max-width:375px) {
+    main {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      width: auto;
+      margin: auto;
     }
-    main .first-content{
-        width: 90%;
-    }
-    
-}
+  
+  }
